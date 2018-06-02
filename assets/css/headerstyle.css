@@ -1,6 +1,5 @@
 header {
     background-color: #ffffff;
-    
     min-height: 70px;
 }
 
@@ -12,7 +11,7 @@ header .brand {
     float: left;
     background-color: #4aaaa5;
     color: #ffffff;
-    margin-left: 5%;
+    margin-left: 15px;
 }
 
 ul {

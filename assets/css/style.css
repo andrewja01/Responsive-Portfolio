@@ -15,8 +15,9 @@ body {
 }
 
 .box-container {
-    width: 66%;
-    margin-left: 17%;
+    width: 70%;
+    margin-left: 15px;
+    margin-right: 15px;
     overflow: hidden;
 }
 
@@ -62,33 +63,33 @@ p {
 }
  
 
-/* Media Queries*/
+  /*Media Queries*/
 
 @media(max-width:980px){
-    img.profile {
-        width: 35%;
-    }
-
-    img.portfolio {
-        width: 100%;
-    }
-
     .box-container{     
-        margin-right: none;
-        margin-left: 5%;
+       width: 66%;
+       margin: 0;
+       padding: 0;
     }
 
     .box-set{
-        margin-bottom: 25%;
+        margin-left: 15px;
+        margin-right: 5px;
     }
 
     .column,
     .img-container {
-        flex: 50%;
-        max-width: 50%;
+        flex: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
-    .profile-container{
+    img.profile {
+        width: 35%;
+    }
+
+     .profile-container{
         width: 30%;
     }
 
@@ -101,27 +102,21 @@ p {
     }
 
     .box-set{
-        margin-bottom: 25%;
         margin-right: 5%;
     }
-
-    img.portfolio{ 
-        width: 50%;
-        height: 75%}
     
+    .column,
+    .img-container{
+        flex: 100%;
+        max-width: 100%;
+
+    }
+
     li{
         margin-top: 10px;
     }
 
-    ul
-
-    .column,
-    .img-container{
-        max-width: 50%;
-        flex: 50%;
-    }
-
-      .profile-container {
+     .profile-container {
         width: 30%;
     }
 
@@ -144,38 +139,27 @@ p {
         margin-right: 25%;
         padding: 0;
         text-align: center;
-
     }
 
     li {
         margin-top: 0;
     }
 
-    .column,
-    .img-container{
-        max-width: 100%;
+    img.portfolio {
+        width: 100%;
         flex: 100%;
-        padding: 0px;
     }
 
     .profile-container {
          width: 100%;
         }
+    
+    .column {
+        flex: 100%;
+        max-width: 100%;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
